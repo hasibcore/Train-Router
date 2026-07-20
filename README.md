@@ -9,12 +9,10 @@
 - **Intermediate Stoppages & Timetable Planner**: Detailed arrival and departure times at major junction stations across Bangladesh Railway.
 - **Pinned Ticket Wallet & Departure Alarm**: Store ticket references offline with sound alerts for travel day.
 
-## 📂 Presentation Slides & Folder Structure
-- **`presentation_slide/final.pptx`**: Official 17-slide Widescreen PowerPoint Presentation File.
-- `index.html` / `styles.css` / `app.js`: Web Application Frontend & Interactive System Demo.
-- `build_deck.py`: Python script generating the presentation.
-- `assets/`: 3D Icons, Train App Screenshots, and UI Mockups.
+## 📂 Presentation Slides Folder
+- **`Presentation Slides/final.pptx`**: Official 17-slide Widescreen PowerPoint Presentation File.
 
-## 🚀 How to Run
-Open `presentation_slide/final.pptx` in Microsoft PowerPoint to launch the presentation.
-Or open `index.html` in any modern web browser to interact with the live demo.
+## 🚀 Web Application
+- `index.html` / `styles.css` / `app.js`: Web Application Frontend & Interactive System Demo.
+- `build_deck.py`: Python script to generate the presentation.
+- `assets/`: 3D Icons, Train App Screenshots, and UI Mockups.
