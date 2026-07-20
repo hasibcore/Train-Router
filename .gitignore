@@ -1,0 +1,5 @@
+~$*.pptx
+*.tmp
+.tempmediaStorage/
+scratch/
+__pycache__/

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrainRouter BD - Train Route, Available Seats & Fare Calculator System</title>
+  <meta name="description" content="Professional 16:9 presentation deck for TrainRouter BD - Train Route, Seat Availability & Fare Calculator System.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Main 16:9 Presentation Stage -->
+  <div id="presentation-stage">
+
+    <div class="slide-deck">
+
+      <!-- SLIDE 1: Title & Hero -->
+      <section class="slide active" id="slide-1">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">Software Engineering Project</div>
+            <div class="slide-title">System Overview</div>
+          </div>
+          <div class="slide-header-right">
+            <div class="brand-badge">
+              <svg viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"/></svg>
+              TrainRouter BD v1.0
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-body title-slide-body">
+          <div>
+            <div class="title-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M2 12h20"/></svg>
+              Smart Railway Information System
+            </div>
+            <h1 class="hero-main-title">Train<span>Router</span> BD</h1>
+            <p class="hero-subtitle" contenteditable="true">An intelligent Bangladesh Railway route finder, available train enquiry, seat type & count lookup, and seat-wise fare calculator.</p>
+            
+            <div class="hero-meta-grid">
+              <div class="meta-card">
+                <div class="label">Course Instructor</div>
+                <div class="value" contenteditable="true">Prof. Dr. [Instructor Name]</div>
+              </div>
+              <div class="meta-card">
+                <div class="label">University / Department</div>
+                <div class="value" contenteditable="true">Dept. of Computer Science & Engineering</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <img src="assets/hero_train.png" alt="TrainRouter Sleek Train Hero Illustration">
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left" contenteditable="true">TrainRouter BD Project Presentation | CSE Software Engineering</div>
+          <div class="footer-right">
+            <span>Slide</span>
+            <div class="slide-counter">01 / 15</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 2: Team Members -->
+      <section class="slide" id="slide-2">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">Project Contributors</div>
+            <div class="slide-title">Engineering Team</div>
+          </div>
+          <div class="slide-header-right">
+            <div class="brand-badge">TrainRouter BD</div>
+          </div>
+        </div>
+
+        <div class="slide-body">
+          <div class="col-3">
+            <div class="member-card">
+              <div class="member-avatar">
+                <img src="assets/Hasib.jpeg" alt="Member 1">
+              </div>
+              <div class="member-id" contenteditable="true">ID: 00724205101098</div>
+            </div>
+
+            <div class="member-card">
+              <div class="member-avatar">
+                <img src="assets/Diganta.jpeg" alt="Member 2">
+              </div>
+              <div class="member-id" contenteditable="true">ID: 00724205101103</div>
+            </div>
+
+            <div class="member-card">
+              <div class="member-avatar">
+                <img src="assets/imran.jpeg" alt="Member 3">
+              </div>
+              <div class="member-id" contenteditable="true">ID: 00724205101123</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left">Project Team Student IDs</div>
+          <div class="footer-right"><span>Slide</span> <div class="slide-counter">02 / 15</div></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 3: System Vision / What is It? -->
+      <section class="slide" id="slide-3">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">System Vision</div>
+            <div class="slide-title">What is TrainRouter BD?</div>
+          </div>
+          <div class="slide-header-right"><div class="brand-badge">TrainRouter BD</div></div>
+        </div>
+
+        <div class="slide-body">
+          <div class="col-2">
+            <div class="card-panel" style="display: flex; flex-direction: column; justify-content: center; gap: 20px;">
+              <div class="icon-box">
+                <svg viewBox="0 0 24 24"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <h3 style="font-size: 28px; font-weight: 700; color: var(--primary-deep);" contenteditable="true">Smart Bangladesh Train Route & Fare Enquiry System</h3>
+              <p style="font-size: 17px; color: var(--text-muted); line-height: 1.6;" contenteditable="true">
+                TrainRouter BD is a specialized web application for Bangladesh Railway passengers. Users can enter their origin and destination ("From-To") to instantly check active trains, available seat counts across seat classes, fare rates in BDT (৳), and calculate total journey costs.
+              </p>
+              <ul class="styled-list">
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> From-To Search: Discover all available intercity express trains on selected routes</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Live Seat Inventory: Track available seats for Shovon, Snigdha, AC Berth & AC Cabin</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Seat-wise Fare Calculator: Dynamic BDT (৳) fare computation according to seat class & passengers</li>
+              </ul>
+            </div>
+
+            <div class="feature-media-box">
+              <img src="assets/train_route_map.png" alt="Train Router BD Map Network">
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left">System Scope & Purpose (Informational Platform)</div>
+          <div class="footer-right"><span>Slide</span> <div class="slide-counter">03 / 15</div></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 4: Current Challenges -->
+      <section class="slide" id="slide-4">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">Background Context</div>
+            <div class="slide-title">Challenges in Railway Commute Planning</div>
+          </div>
+          <div class="slide-header-right"><div class="brand-badge">TrainRouter BD</div></div>
+        </div>
+
+        <div class="slide-body">
+          <div class="col-3">
+            <div class="card-panel" style="border-left: 4px solid #EF4444;">
+              <div class="icon-box" style="background: rgba(239, 68, 68, 0.1);"><svg viewBox="0 0 24 24" style="stroke: #EF4444;"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+              <h4 style="font-size: 20px; font-weight: 700; color: #B91C1C; margin-bottom: 10px;" contenteditable="true">Uncertain Train Availability</h4>
+              <p style="font-size: 14px; color: var(--text-muted); line-height: 1.5;" contenteditable="true">Passengers often don't know how many trains are running between specific stations (e.g. Dhaka to Cox's Bazar or Sylhet) or their departure schedules.</p>
+            </div>
+
+            <div class="card-panel" style="border-left: 4px solid #EF4444;">
+              <div class="icon-box" style="background: rgba(239, 68, 68, 0.1);"><svg viewBox="0 0 24 24" style="stroke: #EF4444;"><path d="M4 18v3s0 1 1 1h14s1 0 1-1v-3M4 11V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5M4 15h16"/></svg></div>
+              <h4 style="font-size: 20px; font-weight: 700; color: #B91C1C; margin-bottom: 10px;" contenteditable="true">Lack of Seat Class Details</h4>
+              <p style="font-size: 14px; color: var(--text-muted); line-height: 1.5;" contenteditable="true">Commuters struggle to check real-time seat availability for specific classes like Shovon Chair, Snigdha, AC Berth, or AC Cabin before visiting stations.</p>
+            </div>
+
+            <div class="card-panel" style="border-left: 4px solid #EF4444;">
+              <div class="icon-box" style="background: rgba(239, 68, 68, 0.1);"><svg viewBox="0 0 24 24" style="stroke: #EF4444;"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/></svg></div>
+              <h4 style="font-size: 20px; font-weight: 700; color: #B91C1C; margin-bottom: 10px;" contenteditable="true">Complex Fare Calculation</h4>
+              <p style="font-size: 14px; color: var(--text-muted); line-height: 1.5;" contenteditable="true">Calculating total journey fare for multiple passengers based on seat category and distance requires manual formulas, causing budget confusion.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left">Key User Problems in Bangladesh Railway Information Access</div>
+          <div class="footer-right"><span>Slide</span> <div class="slide-counter">04 / 15</div></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 5: How It Works (Process Flow) -->
+      <section class="slide" id="slide-5">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">System Architecture</div>
+            <div class="slide-title">How TrainRouter BD Works</div>
+          </div>
+          <div class="slide-header-right"><div class="brand-badge">TrainRouter BD</div></div>
+        </div>
+
+        <div class="slide-body" style="align-items: center;">
+          <div class="process-flow">
+            <div class="process-step">
+              <div class="step-number">1</div>
+              <div class="step-title" contenteditable="true">From-To Input</div>
+              <div class="step-desc" contenteditable="true">User selects origin station (From) and destination station (To) with journey date.</div>
+            </div>
+
+            <div class="process-step">
+              <div class="step-number">2</div>
+              <div class="step-title" contenteditable="true">Database Query</div>
+              <div class="step-desc" contenteditable="true">Queries Bangladesh Railway database for active intercity trains running on the route.</div>
+            </div>
+
+            <div class="process-step">
+              <div class="step-number">3</div>
+              <div class="step-title" contenteditable="true">Seat Inventory</div>
+              <div class="step-desc" contenteditable="true">Retrieves available seat counts for Shovon, Snigdha, AC Berth, and AC Cabin classes.</div>
+            </div>
+
+            <div class="process-step">
+              <div class="step-number">4</div>
+              <div class="step-title" contenteditable="true">Fare Calculation</div>
+              <div class="step-desc" contenteditable="true">Calculates class-wise fare per seat in BDT (৳) and total cost based on passenger count.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left">Informational Data Processing Workflow</div>
+          <div class="footer-right"><span>Slide</span> <div class="slide-counter">05 / 15</div></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 6: Train Database (BD Context) -->
+      <section class="slide" id="slide-6">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">Bangladesh Railway Data</div>
+            <div class="slide-title">Bangladesh Railway Relational Schema</div>
+          </div>
+          <div class="slide-header-right"><div class="brand-badge">TrainRouter BD</div></div>
+        </div>
+
+        <div class="slide-body">
+          <div class="col-4">
+            <div class="card-panel">
+              <div class="icon-box"><svg viewBox="0 0 24 24"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <h4 style="font-size: 20px; font-weight: 700; color: var(--primary-deep); margin-bottom: 10px;" contenteditable="true">BD Station Catalog</h4>
+              <p style="font-size: 14px; color: var(--text-muted);" contenteditable="true">Master list of stations (Dhaka Kamalapur, Chattogram, Sylhet, Cox's Bazar, Rajshahi) with codes (DA, CG, SY, CXB).</p>
+            </div>
+
+            <div class="card-panel">
+              <div class="icon-box"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <h4 style="font-size: 20px; font-weight: 700; color: var(--primary-deep); margin-bottom: 10px;" contenteditable="true">Intercity Schedules</h4>
+              <p style="font-size: 14px; color: var(--text-muted);" contenteditable="true">Express train timetables (Suborno 701, Parabat 709, Cox's Bazar Express 813, Sonar Bangla 787).</p>
+            </div>
+
+            <div class="card-panel">
+              <div class="icon-box"><svg viewBox="0 0 24 24"><path d="M4 18v3s0 1 1 1h14s1 0 1-1v-3M4 11V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5M4 15h16"/></svg></div>
+              <h4 style="font-size: 20px; font-weight: 700; color: var(--primary-deep); margin-bottom: 10px;" contenteditable="true">Seat Inventory</h4>
+              <p style="font-size: 14px; color: var(--text-muted);" contenteditable="true">Live available seat counts for Shovon Chair, Snigdha, AC Berth, and AC Cabin coaches.</p>
+            </div>
+
+            <div class="card-panel">
+              <div class="icon-box"><svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/></svg></div>
+              <h4 style="font-size: 20px; font-weight: 700; color: var(--primary-deep); margin-bottom: 10px;" contenteditable="true">BR Fare Rules (BDT ৳)</h4>
+              <p style="font-size: 14px; color: var(--text-muted);" contenteditable="true">Kilometer-based tariff rates, seat class multipliers, and government 15% VAT breakdown.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left">Bangladesh Railway Relational Data & Information Schema</div>
+          <div class="footer-right"><span>Slide</span> <div class="slide-counter">06 / 15</div></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 7: Calculator Logic (BD Context) -->
+      <section class="slide" id="slide-7">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">BD Calculation Rules</div>
+            <div class="slide-title">Bangladesh Railway Fare & Duration Engine</div>
+          </div>
+          <div class="slide-header-right"><div class="brand-badge">TrainRouter BD</div></div>
+        </div>
+
+        <div class="slide-body">
+          <div class="col-2">
+            <div class="card-panel" style="display: flex; flex-direction: column; justify-content: center; gap: 24px;">
+              <div style="display: flex; align-items: center; gap: 16px;">
+                <div class="icon-box" style="margin: 0;"><svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01"/></svg></div>
+                <div>
+                  <h3 style="font-size: 24px; font-weight: 700; color: var(--primary-deep);" contenteditable="true">BD Dynamic Fare Formula (BDT ৳)</h3>
+                  <p style="font-size: 15px; color: var(--text-muted);" contenteditable="true">Seat Fare = (Base Rate × Route KM) × Seat Class Multiplier + 15% VAT</p>
+                </div>
+              </div>
+
+              <div style="display: flex; align-items: center; gap: 16px;">
+                <div class="icon-box" style="margin: 0;"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+                <div>
+                  <h3 style="font-size: 24px; font-weight: 700; color: var(--primary-deep);" contenteditable="true">Estimated Journey Duration</h3>
+                  <p style="font-size: 15px; color: var(--text-muted);" contenteditable="true">Duration = (Distance / Train Speed) + Junction Delay Buffer (Tongi, Joydebpur, Akhaura)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-panel" style="background: var(--bg-card-alt); border-left: 4px solid var(--accent-cyan); display: flex; flex-direction: column; justify-content: center;">
+              <h4 style="font-size: 20px; font-weight: 700; color: var(--primary-deep); margin-bottom: 16px;" contenteditable="true">Seat Multipliers (BR Rate Matrix)</h4>
+              <ul class="styled-list">
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Shovon Chair (S_CHAIR): 1.0x (Standard Base Tariff)</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Snigdha (AC Chair): 1.8x (Air-Conditioned Premium)</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> AC Berth (AC_BATH): 2.5x (Night Sleeper Berth)</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> AC Cabin (AC_CABIN): 2.8x (Private Compartment)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left">Bangladesh Railway Dynamic Fare Computation & Multipliers</div>
+          <div class="footer-right"><span>Slide</span> <div class="slide-counter">07 / 15</div></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 8: Section Divider 2 - Features Showcase -->
+      <section class="slide section-divider" id="slide-8" style="padding: 0; background: #08101E;">
+        <div style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; padding: 20px;">
+          <img src="assets/train_app_mockup.png" alt="System Features Showcase" style="max-width: 100%; max-height: 100%; border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); object-fit: contain;">
+        </div>
+      </section>
+
+      <!-- SLIDE 9: Train From & To Search (BD Stations) -->
+      <section class="slide" id="slide-9">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">Feature 01</div>
+            <div class="slide-title">From-To & Date-Based Train Availability Search</div>
+          </div>
+          <div class="slide-header-right"><div class="brand-badge">TrainRouter BD</div></div>
+        </div>
+
+        <div class="slide-body">
+          <div class="col-2">
+            <div class="card-panel" style="display: flex; flex-direction: column; justify-content: center; gap: 20px;">
+              <h3 style="font-size: 26px; font-weight: 700; color: var(--primary-deep);" contenteditable="true">From-To Station & Date Selection</h3>
+              <p style="font-size: 15px; color: var(--text-muted); line-height: 1.6;" contenteditable="true">
+                Passengers select origin (From), destination (To), and journey date to discover all available intercity express trains running on that exact date.
+              </p>
+              <ul class="styled-list">
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <strong>Station Dropdown:</strong> Select From (e.g., Dhaka Kamalapur) and To (e.g., Chattogram) with autocomplete</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <strong>Date Picker & Off-Day Filter:</strong> Filters out weekly off-day trains (e.g., Suborno OFF on Wed) automatically</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <strong>Available Train Counter:</strong> Instantly displays total running intercity trains (e.g., <em>"4 Trains Available on 24 July"</em>)</li>
+              </ul>
+            </div>
+
+            <div class="feature-media-box">
+              <img src="assets/train_app_mockup.png" alt="Train From and To UI Mockup">
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left">User Interface - Bangladesh Route Querying & Date Filtering</div>
+          <div class="footer-right"><span>Slide</span> <div class="slide-counter">09 / 16</div></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 10: Train Information (BD Intercity) -->
+      <section class="slide" id="slide-10">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">Feature 02</div>
+            <div class="slide-title">Available Train List & Real-Time Seat Count</div>
+          </div>
+          <div class="slide-header-right"><div class="brand-badge">TrainRouter BD</div></div>
+        </div>
+
+        <div class="slide-body">
+          <div class="col-2">
+            <div class="feature-media-box">
+              <img src="assets/train_app_mockup.png" alt="Train Details Interface">
+            </div>
+
+            <div class="card-panel" style="display: flex; flex-direction: column; justify-content: center; gap: 20px;">
+              <h3 style="font-size: 26px; font-weight: 700; color: var(--primary-deep);" contenteditable="true">Date-Wise Available Train List</h3>
+              <p style="font-size: 15px; color: var(--text-muted); line-height: 1.6;" contenteditable="true">
+                Displays the full list of running intercity trains for the chosen date along with departure schedules, journey duration, and available seat counts per coach class.
+              </p>
+              <ul class="styled-list">
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <strong>Active Intercity List:</strong> Suborno Express (701), Parabat Express (709), Cox's Bazar Express (813), Sonar Bangla (787)</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <strong>Available Seats per Class:</strong> Real-time available count (Shovon: 120, Snigdha: 45, AC Berth: 12)</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <strong>Off-Day Warning Banner:</strong> Shows off-day alerts if user picks a date when a train does not run</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left">Date-Wise Active Train Schedule & Seat Inventory Overview</div>
+          <div class="footer-right"><span>Slide</span> <div class="slide-counter">10 / 16</div></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 11: Feature 03 - Available Seat Types & Categories -->
+      <section class="slide section-divider" id="slide-11">
+        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: #0B192C;">
+          <img src="assets/feature_03_seat_types.png" alt="Available Seat Types and Categories" style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+        </div>
+      </section>
+
+      <!-- SLIDE 12: Feature 04 - Seat-Wise Fare Calculator -->
+      <section class="slide section-divider" id="slide-12">
+        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: #0B192C;">
+          <img src="assets/feature_04_fare_calculator.png" alt="Seat-Wise Fare Calculator" style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+        </div>
+      </section>
+
+      <!-- SLIDE 13: Feature 05 - Route Stoppages & Timetable Planner -->
+      <section class="slide section-divider" id="slide-13">
+        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: #0B192C;">
+          <img src="assets/feature_05_route_stoppages.png" alt="Route Stoppages and Timetable Planner" style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+        </div>
+      </section>
+
+      <!-- SLIDE 14: Feature 06 - Ticket Store & Departure Alarming Pin -->
+      <section class="slide" id="slide-14">
+        <div class="slide-header">
+          <div class="slide-header-left">
+            <div class="slide-category">Feature 06</div>
+            <div class="slide-title">Ticket Store & Departure Alarming Pin</div>
+          </div>
+          <div class="slide-header-right"><div class="brand-badge">TrainRouter BD</div></div>
+        </div>
+
+        <div class="slide-body">
+          <div class="col-2">
+            <div class="card-panel" style="display: flex; flex-direction: column; justify-content: center; gap: 20px;">
+              <h3 style="font-size: 26px; font-weight: 700; color: var(--primary-deep);" contenteditable="true">Ticket Pinned Storage & Journey Alarm Pin</h3>
+              <p style="font-size: 16px; color: var(--text-muted); line-height: 1.6;" contenteditable="true">
+                Commuters can pin and store their paper or online train ticket details. On the journey day, the app acts as an active alarming pin and departure notification system.
+              </p>
+              <ul class="styled-list">
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <strong>Ticket Details Storage:</strong> Store ticket photo, reference pin, train name, coach/seat info, and departure schedule locally.</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <strong>Journey Day Alarming Pin:</strong> Triggers sound alarms & notifications (e.g. 2 hours before departure, station boarding alert).</li>
+                <li contenteditable="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <strong>Offline Quick Pass:</strong> Access pinned ticket information at platform gates without requiring an active internet connection.</li>
+              </ul>
+            </div>
+
+            <div class="card-panel" style="background: linear-gradient(135deg, #0F4C81, #0B192C); color: white; display: flex; flex-direction: column; justify-content: space-between; padding: 30px; border-radius: 16px; position: relative;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 13px; font-weight: 700; background: rgba(0, 180, 216, 0.2); color: var(--accent-cyan); padding: 4px 12px; border-radius: 20px; border: 1px solid var(--accent-cyan);">PINNED TICKET & ALARM</span>
+                <span style="font-size: 12px; color: #CBD5E1;">LIVE STATUS: ACTIVE</span>
+              </div>
+
+              <div style="margin: 20px 0; text-align: center;">
+                <div style="font-size: 14px; color: #94A3B8; text-transform: uppercase; letter-spacing: 1px;">Upcoming Journey</div>
+                <div style="font-size: 28px; font-weight: 800; color: white; margin: 4px 0;">Suborno Express (701)</div>
+                <div style="font-size: 18px; color: var(--accent-cyan); font-weight: 600;">Dhaka (Kamalapur) ➔ Chattogram</div>
+              </div>
+
+              <div style="background: rgba(255, 255, 255, 0.08); padding: 16px; border-radius: 12px; border: 1px dashed rgba(0, 180, 216, 0.5); display: flex; justify-content: space-around; text-align: center;">
+                <div>
+                  <div style="font-size: 11px; color: #94A3B8;">DEPARTURE</div>
+                  <div style="font-size: 18px; font-weight: 700; color: white;">04:30 PM</div>
+                </div>
+                <div style="width: 1px; background: rgba(255, 255, 255, 0.2);"></div>
+                <div>
+                  <div style="font-size: 11px; color: #94A3B8;">SEAT / COACH</div>
+                  <div style="font-size: 18px; font-weight: 700; color: var(--accent-cyan);">KA-14 (Snigdha)</div>
+                </div>
+                <div style="width: 1px; background: rgba(255, 255, 255, 0.2);"></div>
+                <div>
+                  <div style="font-size: 11px; color: #94A3B8;">ALARM PIN</div>
+                  <div style="font-size: 18px; font-weight: 700; color: #EF4444;">02:30 PM (2h prior)</div>
+                </div>
+              </div>
+
+              <div style="margin-top: 15px; font-size: 12px; color: #CBD5E1; text-align: center;">
+                🔔 Alarm set: Loud chime + station platform notification enabled
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-footer">
+          <div class="footer-left">Ticket Store, Pinned Storage & Journey Day Alarming System</div>
+          <div class="footer-right"><span>Slide</span> <div class="slide-counter">14 / 17</div></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 15: Major Future Updates (Multimodal Integration Graphic) -->
+      <section class="slide" id="slide-15" style="padding: 0; background: #0b132b; overflow: hidden; position: relative;">
+        <img src="assets/slide15_major_updates.png" alt="Major System Updates - Multimodal Transit Hub" style="width: 100%; height: 100%; object-fit: contain; display: block;" />
+      </section>
+
+      <!-- SLIDE 16: Minor Future Updates & Smart Features Graphic -->
+      <section class="slide" id="slide-16" style="padding: 0; background: #0b132b; overflow: hidden; position: relative;">
+        <img src="assets/slide16_minor_updates.png" alt="Minor Updates & Smart Commuter Enhancements" style="width: 100%; height: 100%; object-fit: contain; display: block;" />
+      </section>
+
+      <!-- SLIDE 17: Conclusion & Q&A Graphic -->
+      <section class="slide" id="slide-17" style="padding: 0; background: #0b132b; overflow: hidden; position: relative;">
+        <img src="assets/slide17_conclusion.png" alt="Conclusion and Q&A - TrainRouter BD" style="width: 100%; height: 100%; object-fit: contain; display: block;" />
+      </section>
+
+    </div>
+
+    <!-- Bottom Stage Progress Bar -->
+    <div id="progress-bar"></div>
+
+  </div>
+
+  <!-- Presenter Toolbar -->
+  <div id="presenter-toolbar">
+    <button class="btn-ctrl" id="btn-prev" title="Previous Slide (Left Arrow / PageUp)">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+
+    <div class="slide-picker" id="slide-counter">01 / 17</div>
+
+    <button class="btn-ctrl" id="btn-next" title="Next Slide (Right Arrow / Space / PageDown)">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+
+    <div style="width: 1px; height: 24px; background: rgba(255, 255, 255, 0.2); margin: 0 4px;"></div>
+
+    <button class="btn-ctrl" id="btn-overview" title="Slide Overview Grid (Press 'O')">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+    </button>
+
+    <button class="btn-ctrl" id="btn-fullscreen" title="Fullscreen Toggle (Press 'F')">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+    </button>
+  </div>
+
+  <!-- Overview Grid Modal -->
+  <div id="overview-modal">
+    <div class="overview-header">
+      <h2 style="font-family: 'Poppins', sans-serif; font-size: 28px; font-weight: 700;">Slide Deck Overview (17 Slides)</h2>
+      <button class="btn-ctrl" id="btn-close-overview" style="background: var(--accent-cyan); color: black;">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="overview-grid" id="overview-grid"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
