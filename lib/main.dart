@@ -27,7 +27,6 @@ class TrainRouterHome extends StatelessWidget {
         backgroundColor: const Color(0xFF006B3C),
         elevation: 0,
         centerTitle: true,
-
         leading: IconButton(
           onPressed: () {},
           icon: const Icon(
@@ -35,17 +34,16 @@ class TrainRouterHome extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-
         title: const Text(
           'TRAIN ROUTER',
           style: TextStyle(
             color: Colors.white,
             fontSize: 20,
             fontWeight: FontWeight.bold,
+            letterSpacing: 0.8,
           ),
         ),
       ),
-
       body: const SizedBox(),
     );
   }
