@@ -34,6 +34,7 @@ class TrainRouterHome extends StatelessWidget {
             color: Colors.white,
           ),
         ),
+
         title: const Text(
           'TRAIN ROUTER',
           style: TextStyle(
@@ -44,7 +45,13 @@ class TrainRouterHome extends StatelessWidget {
           ),
         ),
       ),
-      body: const SizedBox(),
+      body: const Center(
+        child: Icon(
+          Icons.train,
+          size: 100,
+          color: Color(0xFF006B3C),
+        ),
+      ),
     );
   }
 }
