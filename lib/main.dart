@@ -46,10 +46,19 @@ class TrainRouterHome extends StatelessWidget {
         ),
       ),
       body: const Center(
-        child: Icon(
-          Icons.train,
-          size: 100,
-          color: Color(0xFF006B3C),
+        child: Column(mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.train,
+                size: 100,
+                color: Color(0xFF006B3C),
+              ),
+              SizedBox(height: 15),
+              Text(
+                'Page is Under Development',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+            ]
         ),
       ),
     );
