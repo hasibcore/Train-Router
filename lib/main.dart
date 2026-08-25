@@ -58,6 +58,11 @@ class TrainRouterHome extends StatelessWidget {
                 'Page is Under Development',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
+              SizedBox(height: 5),
+              Text(
+                'Features to be added soon',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
             ]
         ),
       ),
