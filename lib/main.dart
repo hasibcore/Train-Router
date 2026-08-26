@@ -24,7 +24,7 @@ class TrainRouterHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0xFF006B3C),
+        backgroundColor: const Color.fromARGB(255, 1, 162, 255),
         elevation: 0,
         centerTitle: true,
         leading: IconButton(
@@ -45,27 +45,34 @@ class TrainRouterHome extends StatelessWidget {
           ),
         ),
       ),
-      body: const Center(
+      body: Center(
         child: Column(mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Icon(
                 Icons.train,
                 size: 100,
-                color: Color(0xFF006B3C),
+                color: Color.fromARGB(255, 1, 162, 255),
               ),
               SizedBox(height: 15),
               Text(
                 'Page is Under Development',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
-              SizedBox(height: 5),
-              Text(
-                'Features to be added soon',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-              ),
+              
+              
+              TextButton(
+                style: ButtonStyle(
+                  foregroundColor: WidgetStatePropertyAll(const Color.fromARGB(255, 26, 3, 238)),
+                ),
+                onPressed: () {},
+                child: Text('Click Here To go Home'),
+              )
+
             ]
         ),
+        
       ),
+      
     );
   }
 }
