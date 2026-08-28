@@ -50,13 +50,13 @@ class TrainRouterHome extends StatelessWidget {
             children: [
               Icon(
                 Icons.train,
-                size: 100,
+                size: 150,
                 color: Color.fromARGB(255, 1, 162, 255),
               ),
               SizedBox(height: 15),
               Text(
                 'Page is Under Development',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               
               
@@ -76,3 +76,9 @@ class TrainRouterHome extends StatelessWidget {
     );
   }
 }
+/*
+Login page
+Home page
+Splash Screen
+Seat class page
+*/
