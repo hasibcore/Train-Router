@@ -78,7 +78,10 @@ class TrainRouterHome extends StatelessWidget {
 }
 /*
 Login page
+Sign up page
 Home page
 Splash Screen
 Seat class page
+Fare Calculator page
+Train information page
 */
