@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Train Router',
-      home: const TrainRouterHome(),
+      home: const UnderConstruction(),
     );
   }
 }

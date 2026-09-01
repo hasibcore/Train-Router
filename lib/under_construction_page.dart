@@ -7,13 +7,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Train Router',
-      home: const TrainRouterHome(),
+      home: const UnderConstruction(),
     );
   }
 }
 
-class TrainRouterHome extends StatelessWidget {
-  const TrainRouterHome({super.key});
+class UnderConstruction extends StatelessWidget {
+  const UnderConstruction({super.key});
 
   @override
   Widget build(BuildContext context) {
