@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:train_router/under_construction_page.dart';
+import 'package:train_router/splash_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
 Login page
 Sign up page
 Home page
-Splash Screen
+Splash Screen -> Make for android
 Seat class page
 Fare Calculator page
 Train information page
