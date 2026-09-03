@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
 
+class Splash extends StatefulWidget {
+  const Splash({super.key});
+  @override
+  State<Splash> createState() => _SplashState();
+}
+class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Train Router',
+    return Scaffold(
+      backgroundColor: Colors.lightBlue,
+      body: Center(
+          
+      ),
     );
   }
 }
