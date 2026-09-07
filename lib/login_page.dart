@@ -15,3 +15,12 @@ class _LoginPageState extends State<LoginPage>{
     );
   }
 }
+/*
+logo
+Text: Login to TrainRouter
+Text: Username
+TextBox
+Text: Password
+Textbox
+Text for forgot password/create account 
+*/
