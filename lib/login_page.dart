@@ -10,7 +10,9 @@ class _LoginPageState extends State<LoginPage>{
     return Scaffold(
       backgroundColor: Colors.lightBlue,
       body: Center(
-          
+          child: Column(mainAxisAlignment: MainAxisAlignment.center,
+
+          )
       ),
     );
   }
@@ -22,5 +24,6 @@ Text: Username
 TextBox
 Text: Password
 Textbox
+Login Button
 Text for forgot password/create account 
 */
