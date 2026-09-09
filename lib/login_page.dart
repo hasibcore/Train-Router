@@ -11,7 +11,12 @@ class _LoginPageState extends State<LoginPage>{
       backgroundColor: Colors.lightBlue,
       body: Center(
           child: Column(mainAxisAlignment: MainAxisAlignment.center,
-
+          children: [
+            Text(
+              'Welcome back! Sign in to continue',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+          ]
           )
       ),
     );
