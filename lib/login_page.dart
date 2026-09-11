@@ -16,6 +16,12 @@ class _LoginPageState extends State<LoginPage>{
               'Welcome back! Sign in to continue',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
+            TextField(
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              hintText: 'Username',
+            ),
+          ),
           ]
           )
       ),
