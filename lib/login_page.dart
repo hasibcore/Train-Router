@@ -21,6 +21,14 @@ class _LoginPageState extends State<LoginPage>{
               border: OutlineInputBorder(),
               hintText: 'Username',
             ),
+            
+          ),
+          TextField(
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              hintText: 'Username',
+            ),
+            
           ),
           ]
           )
