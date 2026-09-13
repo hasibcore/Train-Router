@@ -23,10 +23,11 @@ class _LoginPageState extends State<LoginPage>{
             ),
             
           ),
+          SizedBox(height: 10,),
           TextField(
             decoration: InputDecoration(
               border: OutlineInputBorder(),
-              hintText: 'Username',
+              hintText: 'Password',
             ),
             
           ),
