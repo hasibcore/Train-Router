@@ -102,6 +102,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_app_config:
+    dependency: "direct main"
+    description:
+      name: flutter_app_config
+      sha256: a884e1252e2d13629a02151b95d2d972ef27fa78c11c09ea44c6b15a71d53b75
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.3"
   flutter_launcher_icons:
     dependency: "direct dev"
     description:
