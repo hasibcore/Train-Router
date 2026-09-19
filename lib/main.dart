@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:train_router/under_construction_page.dart';
-
+import 'package:train_router/login_page.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -13,20 +13,20 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Train Router',
-      home: const UnderConstruction(),
+      home: const LoginPage(),
     );
   }
 }
 
 
 /*
-Login page
-Sign up page
-Home page
-Splash Screen -> Make for android -> no need for seperate class anymore, just make it in pubspec, along with the logo
-Seat class page
-Fare Calculator page
-Train information page
+
+
+
+To do:
+Add a Sign up page
 Add Futurebuilder from flutter devs
 Add Authentication using Firebase
+Add Functions for fare calculator
+Add user setting of home station
 */
