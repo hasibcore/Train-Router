@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:train_router/home_page.dart';
+import 'custom_widgets/app_bar.dart';
+import 'custom_widgets/app_drawer.dart';
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -18,28 +21,9 @@ class UnderConstruction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 1, 162, 255),
-        elevation: 0,
-        centerTitle: true,
-        leading: IconButton(
-          onPressed: () {},
-          icon: const Icon(
-            Icons.menu,
-            color: Colors.white,
-          ),
-        ),
-
-        title: const Text(
-          'TRAIN ROUTER',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 0.8,
-          ),
-        ),
-      ),
+      
+      appBar: const CustomAppBar(title: 'Train Router'),
+      drawer: const AppDrawer(),
       body: Center(
         child: Column(mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -59,7 +43,14 @@ class UnderConstruction extends StatelessWidget {
                 style: ButtonStyle(
                   foregroundColor: WidgetStatePropertyAll(const Color.fromARGB(255, 26, 3, 238)),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => HomePage(),
+                          ),
+                        );
+                },
                 child: Text('Click Here To go Home'),
               )
 
