@@ -50,7 +50,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
             ),
-            SizedBox(height: 10,),
+            SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushReplacement(
@@ -60,6 +60,7 @@ class _LoginPageState extends State<LoginPage> {
               },
               child: Text('Login'),
             ),
+            TextButton(onPressed: () {}, child: Text('Sign Up')),
           ],
         ),
       ),
