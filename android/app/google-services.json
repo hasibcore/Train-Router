@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19128737615",
+    "project_id": "train-router",
+    "storage_bucket": "train-router.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19128737615:android:57ff21f2eea704fb90ef3a",
+        "android_client_info": {
+          "package_name": "com.example.trainrouter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIOrYW1AMrKXUdr2wzu_lQlxyT8gxiK0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

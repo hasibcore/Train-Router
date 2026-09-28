@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"train-router","appId":"1:19128737615:android:57ff21f2eea704fb90ef3a","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"train-router","configurations":{"android":"1:19128737615:android:57ff21f2eea704fb90ef3a","web":"1:19128737615:web:ba13c52b7b182a9690ef3a"}}}}}}
