@@ -4,6 +4,7 @@ import 'package:train_router/under_construction_page.dart';
 import 'package:train_router/seat_show_page.dart';
 import 'package:train_router/train_search_page.dart';
 import 'package:train_router/train_details_page.dart';
+import 'package:train_router/profile_page.dart';
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});
 
@@ -14,10 +15,10 @@ class AppDrawer extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           const DrawerHeader(
-            decoration: BoxDecoration(color: Colors.lightBlue),
+            decoration: BoxDecoration(color: Colors.lightBlue, ),
             child: Text(
               'Train Router',
-              style: TextStyle(color: Colors.white, fontSize: 24),
+              style: TextStyle(color: Colors.white, fontSize: 32, fontWeight: FontWeight.bold),
             ),
           ),
           ListTile(
@@ -29,15 +30,7 @@ class AppDrawer extends StatelessWidget {
               );
             },
           ),
-          ListTile(
-            title: const Text('Your Trips' , style: TextStyle(fontWeight: FontWeight.bold),),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => UnderConstruction()),
-              );
-            },
-          ),
+          
           ListTile(
             title: const Text('Train Information' , style: TextStyle(fontWeight: FontWeight.bold),),
             onTap: () {
@@ -70,7 +63,7 @@ class AppDrawer extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => UnderConstruction()),
+                MaterialPageRoute(builder: (context) => ProfilePage()),
               );
             },
           ),
