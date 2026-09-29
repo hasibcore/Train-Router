@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'train_search_page.dart';
+import 'custom_widgets/app_bar.dart';
+import 'custom_widgets/app_drawer.dart';
 
 class train_details_page extends StatelessWidget{
   final String trainName;
@@ -30,10 +32,8 @@ class train_details_page extends StatelessWidget{
   @override
   Widget build(BuildContext context){
   return Scaffold(
-  appBar: AppBar(
-  title: Text("Train Router"),
-  centerTitle: true,
-   ),
+  appBar: const CustomAppBar(title: 'Home'),
+    drawer: const AppDrawer(),
 
     body:ListView(
       children: [

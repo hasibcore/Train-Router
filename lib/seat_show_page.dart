@@ -1,16 +1,15 @@
 import 'main.dart';
 import 'package:flutter/material.dart';
+import 'custom_widgets/app_bar.dart';
+import 'custom_widgets/app_drawer.dart';
 
 class seat_show_page extends StatelessWidget {
   const seat_show_page({super.key});
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Train Router"),
-        centerTitle: true,
-        //actions: [],
-      ),
+      appBar: const CustomAppBar(title: 'Home'),
+      drawer: const AppDrawer(),
 
       body: Padding(
         padding: EdgeInsets.all(10),
@@ -53,7 +52,7 @@ class seat_show_page extends StatelessWidget {
 
                           height: 180,
                           width: 200,
-                          child: Image.asset("assets/nonvip.jpg",
+                          child: Image.asset("assets/images/nonvip.jpg",
                             fit:BoxFit.cover
                           ),
 
@@ -127,7 +126,7 @@ class seat_show_page extends StatelessWidget {
 
                           height: 180,
                           width: 200,
-                          child: Image.asset("assets/nonvip.jpg",
+                          child: Image.asset("assets/images/nonvip.jpg",
                               fit:BoxFit.cover
                           ),
 
@@ -201,7 +200,7 @@ class seat_show_page extends StatelessWidget {
 
                           height: 180,
                           width: 200,
-                          child: Image.asset("assets/ffseat.jpg",
+                          child: Image.asset("assets/images/ffseat.jpg",
                               fit:BoxFit.cover
                           ),
 
@@ -275,7 +274,7 @@ class seat_show_page extends StatelessWidget {
 
                           height: 180,
                           width: 200,
-                          child: Image.asset("assets/ffseat.jpg",
+                          child: Image.asset("assets/images/ffseat.jpg",
                               fit:BoxFit.cover
                           ),
 
@@ -350,7 +349,7 @@ class seat_show_page extends StatelessWidget {
 
                           height: 180,
                           width: 200,
-                          child: Image.asset("assets/snigdha.jpg",
+                          child: Image.asset("assets/images/snigdha.jpg",
                               fit:BoxFit.cover
                           ),
 
@@ -424,7 +423,7 @@ class seat_show_page extends StatelessWidget {
 
                           height: 180,
                           width: 200,
-                          child: Image.asset("assets/shuvonchair.jpg",
+                          child: Image.asset("assets/images/shuvonchair.jpg",
                               fit:BoxFit.cover
                           ),
 
@@ -498,7 +497,7 @@ class seat_show_page extends StatelessWidget {
 
                           height: 180,
                           width: 200,
-                          child: Image.asset("assets/vip.jpg",
+                          child: Image.asset("assets/images/vip.jpg",
                               fit:BoxFit.cover
                           ),
 

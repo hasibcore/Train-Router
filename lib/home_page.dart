@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:train_router/under_construction_page.dart';
 import 'custom_widgets/app_bar.dart';
 import 'custom_widgets/app_drawer.dart';
-
+import 'custom_widgets/bottom_navigation.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
   @override
@@ -12,6 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
+    User? user = FirebaseAuth.instance.currentUser;
     return Scaffold(
       appBar: const CustomAppBar(title: 'Home'),
       drawer: const AppDrawer(),
@@ -32,19 +34,16 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: const [
+                  children: [
                     Text(
-                      'Cristiano Ronaldo',
+                      '${user?.displayName ?? 'User'}',
                       style: TextStyle(
                         fontSize: 26,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 4),
-                    Text(
-                      '01777777777',
-                      style: TextStyle(fontSize: 22, color: Colors.grey),
-                    ),
+                    
+                    
                   ],
                 ),
               ],
@@ -122,6 +121,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
+      bottomNavigationBar: CustomBottomNavigation(title: 'Home'),
     );
   }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'train_details_page.dart';
-
+import 'custom_widgets/app_bar.dart';
+import 'custom_widgets/app_drawer.dart';
 class train_search_page extends StatefulWidget {
   const train_search_page({super.key});
 
@@ -22,9 +23,8 @@ class TrainSearchState extends State<train_search_page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Train Search"),
-      ),
+      appBar: const CustomAppBar(title: 'Home'),
+      drawer: const AppDrawer(),
 
       body: Column(
         children: [

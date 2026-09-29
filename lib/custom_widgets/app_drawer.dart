@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:train_router/home_page.dart';
 import 'package:train_router/under_construction_page.dart';
-
-
+import 'package:train_router/seat_show_page.dart';
+import 'package:train_router/train_search_page.dart';
+import 'package:train_router/train_details_page.dart';
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});
 
@@ -42,7 +43,7 @@ class AppDrawer extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => UnderConstruction()),
+                MaterialPageRoute(builder: (context) => train_search_page()),
               );
             },
           ),
@@ -51,7 +52,7 @@ class AppDrawer extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => UnderConstruction()),
+                MaterialPageRoute(builder: (context) => seat_show_page()),
               );
             },
           ),
